@@ -5,16 +5,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public PlayerSetup playerSetup;
+    [SerializeField] private PlayerStats playerStats;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     private Vector2 movement;
+    private bool isMoving;
+    private static readonly int Moving = Animator.StringToHash("Moving");
 
     private void Awake()
     {
-        if (playerSetup == null)
+        if (playerStats == null)
         {
-            playerSetup = GetComponent<PlayerSetup>();
+            playerStats = GetComponent<PlayerStats>();
         }
         if (rb == null)
         {
@@ -31,18 +34,35 @@ public class PlayerMovement : MonoBehaviour
         movement = InputManager.Instance.MoveInput;
         if (movement != Vector2.zero)
         {
-            animator.SetBool("Moving", true);
+            animator.SetBool(Moving, true);
         }
         else
         {
-            animator.SetBool("Moving", false);
+            animator.SetBool(Moving, false);
         }
+        HandleFacing();
     }
 
     private void FixedUpdate()
     {
-        var speed = playerSetup.NormalSpeed;
-        var newPosition = rb.position + movement * speed * Time.fixedDeltaTime;
-        rb.MovePosition(newPosition);
+        Movement();
+    }
+
+    private void Movement()
+    {
+        var speed = playerStats.CurrentMoveSpeed;
+        rb.velocity = movement * speed;
+    }
+
+    private void HandleFacing()
+    {
+        if (movement.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (movement.x > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
     }
 }

@@ -9,8 +9,8 @@ public class CharacterData : ScriptableObject
     public float moveNormalSpeed;
     public float moveAttackSpeed;
     public float attackRange;
+    public float visionRange;
     public Sprite uiCharacterSprite;
     public Sprite characterSprite;
     public RuntimeAnimatorController AnimatorController;
-    
 }

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Shana
   maxHealth: 4
-  moveNormalSpeed: 10
+  moveNormalSpeed: 5
   moveAttackSpeed: 5
   attackRange: 10
+  visionRange: 10
   uiCharacterSprite: {fileID: 21300000, guid: d0cd330c807e84c4b952ddf86fb74329, type: 3}
   characterSprite: {fileID: -460370582, guid: f7cec055485e6484b864fe9fd951aa2c, type: 3}
   AnimatorController: {fileID: 9100000, guid: 4bccf4fb5aeda054482137a17689185c, type: 2}
