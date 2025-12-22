@@ -108,7 +108,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                     ""id"": ""53457e90-4a99-4204-8132-6e264c6bc506"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""NormalizeVector2"",
                     ""groups"": """",
                     ""action"": ""Movement"",
                     ""isComposite"": true,
