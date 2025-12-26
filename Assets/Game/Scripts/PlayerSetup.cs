@@ -29,8 +29,8 @@ public class PlayerSetup : MonoBehaviour
             return;
         }
 
-        spriteRenderer.sprite = GameManager.Instance.CharacterSlected.characterSprite;
-        animator.runtimeAnimatorController = GameManager.Instance.CharacterSlected.AnimatorController;
-        playerStats.Initialize(GameManager.Instance.CharacterSlected);
+        spriteRenderer.sprite = GameManager.Instance.CharacterSelected.characterSprite;
+        animator.runtimeAnimatorController = GameManager.Instance.CharacterSelected.AnimatorController;
+        playerStats.Initialize(GameManager.Instance.CharacterSelected);
     }
 }

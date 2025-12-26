@@ -207,7 +207,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 8570245678102436774}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8aaa76f3d28e9d4d81fb018a2da082d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData: {fileID: 0}
+  characterData: {fileID: 11400000, guid: f028b513e3bffff4ea0bf9e945aa878b, type: 2}
   characterSelectUI: {fileID: 0}
   characterSpriteRenderer: {fileID: 1997232298741552503}
   animator: {fileID: 738653343014352272}

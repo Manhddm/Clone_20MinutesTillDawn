@@ -5,5 +5,5 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
-    public CharacterData CharacterSlected { get; set; }
+    public CharacterData CharacterSelected { get; set; }
 }
