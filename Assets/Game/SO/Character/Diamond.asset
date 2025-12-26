@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Diamond
   m_EditorClassIdentifier: 
   characterName: Diamond
-  maxHealth: 0
-  moveNormalSpeed: 0
-  moveAttackSpeed: 0
+  maxHealth: 5
+  moveNormalSpeed: 5
+  moveAttackSpeed: 5
   attackRange: 0
   visionRange: 0
   uiCharacterSprite: {fileID: 21300000, guid: 24a285fe8152aa14fb4d43ca1243e310, type: 3}

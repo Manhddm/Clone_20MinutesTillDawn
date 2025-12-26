@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Abby
   m_EditorClassIdentifier: 
   characterName: Abby
-  maxHealth: 0
-  moveNormalSpeed: 0
-  moveAttackSpeed: 0
+  maxHealth: 3
+  moveNormalSpeed: 5
+  moveAttackSpeed: 5
   attackRange: 0
   visionRange: 0
   uiCharacterSprite: {fileID: 21300000, guid: 4a4ded95ea9d461429a3a4005c83248d, type: 3}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Spark
   m_EditorClassIdentifier: 
   characterName: Spark
-  maxHealth: 0
-  moveNormalSpeed: 0
-  moveAttackSpeed: 0
+  maxHealth: 3
+  moveNormalSpeed: 5
+  moveAttackSpeed: 5
   attackRange: 0
   visionRange: 0
   uiCharacterSprite: {fileID: 21300000, guid: b47038c8d38837a44b4f36be8773e303, type: 3}
