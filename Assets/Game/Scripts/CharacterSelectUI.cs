@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
@@ -8,11 +9,23 @@ using UnityEngine.UI;
 public class CharacterSelectUI : MonoBehaviour
 {
     public Image characterImageUI;
+    public CharacterData defaultCharacterData;
     [SerializeField] private TMP_Text characterName;
     [SerializeField] private TMP_Text characterHP;
     [SerializeField] private TMP_Text characterDescription;
     
     private CharacterSelectButton characterSelectButton;
+
+    private void Start()
+    {
+        if (defaultCharacterData == null) return;
+        characterImageUI.sprite = defaultCharacterData.uiCharacterSprite;
+        characterName.SetText(defaultCharacterData.name);
+        characterHP.text = defaultCharacterData.maxHealth.ToString();
+        //characterDescription.SetText(defaultCharacterData.description);
+        
+    }
+
     public void SetCharacterImage(CharacterSelectButton btn)
     {
         var oldBtn = GetCharacterSelectButton();
