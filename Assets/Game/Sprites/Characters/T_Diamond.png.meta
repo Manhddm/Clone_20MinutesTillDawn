@@ -119,9 +119,400 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: T_Diamond_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 291
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a026612cad0da541ae0f6bd070158a8
+      internalID: -1005273678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 291
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dbb59ec7030384e9b8cb2f33e73b69
+      internalID: -765785150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 291
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb85773e2fbf5a43beb80f01b9f5f31
+      internalID: -190690578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 291
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3093f3352b6ee47a68373eb261834f
+      internalID: 1296766432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 291
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea342a7780843974e8a291fae3959a1e
+      internalID: 1756493078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 291
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6435d294b58c4d9e05543ab50b3e4
+      internalID: 450854009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 259
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf3e1debb3bf3748a2c6e3862285a49
+      internalID: 1377556838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 259
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f53427882ec6f40984bc852c3a2869
+      internalID: 593629268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 259
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274c3eb0016cae848b5e1d0a0a991408
+      internalID: 258966786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 259
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2817724e539c354c8d03ca70abe0b07
+      internalID: 1505111985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 227
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db3fd8e02a19074da0f42e0fe816f2a
+      internalID: 1964319905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 227
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe076710738aed478fab01c67060470
+      internalID: 985517940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 227
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1992638e0404e94db0df9abe14568ea
+      internalID: 1015737888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 227
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7565fb7a559da4892ff097261a34f0
+      internalID: 245452772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660f3eef0833964ab2365679333dd82
+      internalID: -1547031222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 227
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dad8dd1d227ae04389ee297882bfb41
+      internalID: -1802238325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 227
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cffc3e85199d94b9ef6207d2ebdd08
+      internalID: -977373623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Diamond_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 227
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d46fb07c18ea541b978596f0daa05b
+      internalID: -706785389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +523,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Diamond_0: -1005273678
+      T_Diamond_1: -765785150
+      T_Diamond_10: 258966786
+      T_Diamond_11: 1505111985
+      T_Diamond_12: 203004496
+      T_Diamond_13: 1964319905
+      T_Diamond_14: 985517940
+      T_Diamond_15: 1015737888
+      T_Diamond_16: 245452772
+      T_Diamond_17: -1547031222
+      T_Diamond_18: -1802238325
+      T_Diamond_19: -977373623
+      T_Diamond_2: -190690578
+      T_Diamond_20: -706785389
+      T_Diamond_21: 1342588521
+      T_Diamond_22: -732871885
+      T_Diamond_23: -521887890
+      T_Diamond_24: -373815216
+      T_Diamond_25: 1247923480
+      T_Diamond_3: 1296766432
+      T_Diamond_4: 1756493078
+      T_Diamond_5: 450854009
+      T_Diamond_6: 718419206
+      T_Diamond_7: 1377556838
+      T_Diamond_8: 593629268
+      T_Diamond_9: -1291422764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

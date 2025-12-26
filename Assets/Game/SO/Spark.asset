@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b26208cc859604688c1efa7b9a6b57, type: 3}
+  m_Name: Spark
+  m_EditorClassIdentifier: 
+  characterName: Spark
+  maxHealth: 0
+  moveNormalSpeed: 0
+  moveAttackSpeed: 0
+  attackRange: 0
+  visionRange: 0
+  uiCharacterSprite: {fileID: 21300000, guid: b47038c8d38837a44b4f36be8773e303, type: 3}
+  characterSprite: {fileID: 1171468693, guid: 50b0391e0ce5bce47896329dc2a7c535, type: 3}
+  AnimatorController: {fileID: 9100000, guid: 5636b01a3095ed34cb4de2416bd15ca4, type: 2}
