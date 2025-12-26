@@ -10,6 +10,8 @@ public class CharacterSelectButton : MonoBehaviour
     public SpriteRenderer characterSpriteRenderer;
     public Animator animator;
     public Button selectButton;
+    
+    
     // Start is called before the first frame update
     void Start()
     {

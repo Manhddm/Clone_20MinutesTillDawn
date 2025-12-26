@@ -18,4 +18,9 @@ public class CharacterSelectUI : MonoBehaviour
         
         characterImageUI.sprite = this.characterSelectButton.characterData.uiCharacterSprite;
     }
+
+    public CharacterSelectButton GetCharacterSelectButton()
+    {
+        return this.characterSelectButton;
+    }
 }
