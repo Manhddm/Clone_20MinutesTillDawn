@@ -10,6 +10,7 @@ public static class GameEventManager
     public static Action OnGameOver;
     // Player Events
     public static Action OnPlayerShot;
+    
     public static Action OnPlayerDeath;
     public static Action OnPlayerLevelUp;
     // Enemy Events
