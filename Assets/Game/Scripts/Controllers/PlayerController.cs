@@ -10,15 +10,27 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private PlayerMovement playerMovement;
     [Range(0.1f,1f)]
     [SerializeField] private float weaponRadius = 0.2f;
+    [SerializeField] private WeaponController weaponController;
     private Vector2 _moveInput;
     private float _nextFireTime;
+
+    private void Awake()
+    {
+        if (playerMovement == null)
+            playerMovement = GetComponentInChildren<PlayerMovement>();
+        if (weaponController == null)
+            weaponController = GetComponentInChildren<WeaponController>();
+    }
+
     void Update()
     {
 
         //Get Input
         _moveInput = InputManager.Instance.MoveInput;
         var isShooting = InputManager.Instance.ShotInput;
-        var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
+        mousePosition.z = 0;
+        weaponController.HandleTransform(playerMovement.gameObject.transform.position, mousePosition -  playerMovement.gameObject.transform.position, weaponRadius);
         //Fire 
         if (isShooting)
         {

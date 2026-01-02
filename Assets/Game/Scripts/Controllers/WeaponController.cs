@@ -23,10 +23,17 @@ public class WeaponController : MonoBehaviour
         rb.velocity = firePoint.right * projectileSpeed;
     }
     
-    public void HandleRotation(Vector3 targetPosition)
+    public void HandleTransform(Vector3 playerPosition, Vector3 playerToMouseDirection, float radius )
     {
-        Vector3 direction = targetPosition - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        transform.position = playerPosition + (playerToMouseDirection.normalized * radius);
+        transform.right = playerToMouseDirection;
+        if (transform.rotation.eulerAngles.z > 90 && transform.rotation.eulerAngles.z < 270)
+        {
+            GetComponent<SpriteRenderer>().flipY = true;
+        }
+        else 
+        {
+            GetComponent<SpriteRenderer>().flipY = false;
+        }
     }
 }
