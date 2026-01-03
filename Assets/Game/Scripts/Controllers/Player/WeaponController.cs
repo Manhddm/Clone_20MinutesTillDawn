@@ -10,13 +10,21 @@ public class WeaponController : MonoBehaviour
     [SerializeField] private float projectileSpeed = 10f;
     private void OnEnable()
     {
-        GameEventManager.OnPlayerShot += FireProjectile;
+        GameEventManager.OnPlayerShoot += FireProjectile;
     }
     private void OnDisable()
     {
-        GameEventManager.OnPlayerShot -= FireProjectile;
+        GameEventManager.OnPlayerShoot -= FireProjectile;
     }
-    private void FireProjectile()
+
+    private void FireProjectile(bool isShooting)
+    {
+        if (isShooting)
+        {
+            Shoot();
+        }
+    }
+    private void Shoot()
     {
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();

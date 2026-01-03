@@ -36,13 +36,20 @@ public class PlayerController : MonoBehaviour
         {
             if (Time.time >= _nextFireTime)
             {
-                GameEventManager.OnPlayerShot?.Invoke();
+                GameEventManager.PlayerShoot(true);
+                playerMovement.FlipSprite(true, mousePosition -  playerMovement.gameObject.transform.position);
                 _nextFireTime = Time.time + 0.3f; // Fire rate limit
             }
         }
+        else
+        {
+            GameEventManager.PlayerShoot();
+            playerMovement.FlipSprite(false, mousePosition -  playerMovement.gameObject.transform.position);
+        }
         
         //Move Player
-        playerMovement.Movement(playerSpeed, _moveInput, isShooting);
+        playerMovement.Movement(playerSpeed, _moveInput);
+
     }
 #if UNITY_EDITOR
     private void OnDrawGizmos()
