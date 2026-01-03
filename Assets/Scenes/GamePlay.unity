@@ -931,6 +931,7 @@ MonoBehaviour:
   playerSpeed: 5
   playerMovement: {fileID: 862308069}
   weaponRadius: 0.2
+  weaponController: {fileID: 0}
 --- !u!1 &2119381916
 GameObject:
   m_ObjectHideFlags: 0
