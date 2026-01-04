@@ -46,10 +46,11 @@ public class PlayerController : MonoBehaviour
             GameEventManager.PlayerShoot();
             playerMovement.FlipSprite(false, mousePosition -  playerMovement.gameObject.transform.position);
         }
-        
-        //Move Player
-        playerMovement.Movement(playerSpeed, _moveInput);
+    }
 
+    private void FixedUpdate()
+    {
+        playerMovement.Movement(playerSpeed, _moveInput);
     }
 #if UNITY_EDITOR
     private void OnDrawGizmos()

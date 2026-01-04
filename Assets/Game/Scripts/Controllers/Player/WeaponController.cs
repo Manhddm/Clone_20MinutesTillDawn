@@ -27,8 +27,7 @@ public class WeaponController : MonoBehaviour
     private void Shoot()
     {
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-        rb.velocity = firePoint.right * projectileSpeed;
+        projectile.GetComponent<Projectile>().Speed = projectileSpeed;
     }
     
     public void HandleTransform(Vector3 playerPosition, Vector3 playerToMouseDirection, float radius )
